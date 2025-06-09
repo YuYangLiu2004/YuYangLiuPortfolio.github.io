@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.view {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.navbar-brand {
+    color: #005A9C !important;
+    font-weight: 800;
+}
+
+.btn-coral {
+    background-color: #FF6F61;
+    border-color: #FF6F61;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* === THE FIX IS HERE === */
+.btn-coral:hover {
+    color: #fff;
+    background-color: #FF6F61; /* Explicitly set the background color on hover */
+    opacity: 0.9;
+}
+/* ======================== */
+
+.price-tag {
+    color: #005A9C;
+    font-weight: 800;
+}
+.badge-coral { background-color: #FF6F61; }
+.badge-blue { background-color: #007bff; }
