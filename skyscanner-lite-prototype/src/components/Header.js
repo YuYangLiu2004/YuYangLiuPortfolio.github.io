@@ -5,7 +5,7 @@ function Header() {
         <header>
             <nav className="navbar navbar-expand-lg bg-light shadow-sm">
                 <div className="container">
-                    <a className="navbar-brand fs-4" href="HomeScreen.js"><i className="bi bi-airplane-engines-fill"></i> G36 Air</a>
+                    <a className="navbar-brand fs-4" href="index.html"><i className="bi bi-airplane-engines-fill"></i> G36 Air</a>
 
                     <div className="ms-auto">
                         <a href="https://yuyangliu2004.github.io/YuYangLiuPortfolio.github.io/" className="btn btn-outline-primary">
